@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- B5 icon links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg  py-3 px-5">
+    <div class="container-fluid d-flex space-between">
+      <a class="navbar-brand" href="index.html">WEN TRAVEL BLOG</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item me-5">
+            <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="#features">STYLEGUIDE</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="#aboutUs">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">CONTACT US</a>
+          </li>
+          <li class="nav-item z">
+            <a class="nav-link" href="login.html">LOG IN</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link" href="#">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">
+              <i class="bi bi-share"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="parallex" id="home">
+    <div class="c-t text-center">
+      <h4 class="mb-5"> Discover Now </h4>
+      <h2>Top amazing cities to Live</h2>
+      <p>Adventure begins now!</p>
+      <button type="button" class="btn "><a href="login.html">Book Now</a></button>
+    </div>
+  </div>
+
+  <!-- Features -->
+  <div class="container mt-5 mb-5" id="features">
+    <div class="row">
+      <div class="col-12 text-center feature-post mt-5 mb-5">
+        <h2 class="mb-4">Featured Posts</h2>
+        <p>Simple WP Theme for Writers & Bloggers</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <div class="card" style="width: 26rem;">
+          <img src="featuree-post/card-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">A modern and beautiful WordPress theme for all kinds of travel and tourism business.
+            </p>
+            <a href="#" class="btn btn-danger">Read More...</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 26rem;">
+          <img src="featuree-post/featured-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-danger">Read More...</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 26rem;">
+          <img src="featuree-post/hero-content.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-danger">Read More...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About Section -->
+  <div class="about-author-section" id="aboutUs">
+    <div class="container about-author">
+      <div class="row">
+        <div class="col-7">
+          <img src="./featuree-post/hero-content.jpg" class="img-flluid" alt="">
+        </div>
+        <div class="col-5">
+          <div class="about-content mt-5 mb-5">
+            <h2>About Author</h5>
+              <p>A modern and beautiful WordPress theme for all kinds of travel and tourism business.</p>
+              <a href="#" class="btn btn-danger">Read More...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="row newsletter-content">
+        <!-- Text Section -->
+        <div class="col-md-7 newsletter-text">
+          <h6 class="text-uppercase text-muted">Stay In Know</h6>
+          <h2>Sign Up For Our Newsletter</h2>
+          <p>
+            Emails offering Inspirational Articles, Giveaways, Impactful Itineraries and Travel Videos.
+            It’s delivered for free, every two months, to registered subscribers.
+            You will be able to unsubscribe at any time.
+          </p>
+          <!-- Input Field -->
+          <div class="newsletter-input">
+            <input type="email" class="form-control" placeholder="Enter your email">
+            <button type="submit">
+              →
+            </button>
+          </div>
+        </div>
+        <!-- Image Section -->
+        <div class="col-md-5 newsletter-image">
+          <img src="/news letter section/img.avif" alt="Newsletter Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="bg-dark text-white pt-4" id="footer">
+    <div class="container">
+      <div class="row">
+        <!-- About Section -->
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>
+            We provide the best travel packages and experiences to make your journey unforgettable.
+          </p>
+        </div>
+        <!-- Quick Links Section -->
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Destinations</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Packages</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- Contact Section -->
+        <div class="col-md-4">
+          <h5>Contact Us</h5>
+          <p>
+            <i class="bi bi-telephone"></i> +123 456 7890<br>
+            <i class="bi bi-envelope"></i> info@travel.com<br>
+            <i class="bi bi-geo-alt"></i> 123 Travel Street, City, Country
+          </p>
+        </div>
+      </div>
+      <hr class="bg-white">
+      <div class="text-center py-3">
+        <p class="mb-0">© 2024 Travel Inc. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- JS LINK -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
